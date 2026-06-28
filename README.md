@@ -134,13 +134,13 @@ This system brings real-time collaboration, auditability, and data export into o
 ![Dashboard](./images/ManagerDT.png)
 ---
 
-### Field Agent Dashboard
+### Field Agent Dashboardf
 ![Dashboard](./images/UserDT.png)
 ---
 
 ## 📚 Folder Structure
 
-```bash
+```bashf
 report-it/
 ├── report-it/
 │   ├── src/
@@ -188,8 +188,6 @@ npm run dev
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
-## 👨‍🚀 Maddy's Note
 
 _"Building software for **students and freshers** because nobody deserves to be ghosted by HR."_
 
