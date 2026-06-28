@@ -1,37 +1,26 @@
 {
-  "name": "report-it",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "report it app backend",
+  "main": "Server.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "test": "npm run test",
+    "start": "node Server.js"
   },
+  "author": "Mandar Kelkar",
+  "license": "ISC",
   "dependencies": {
-    "@heroicons/react": "^2.2.0",
-    "axios": "^1.9.0",
+    "async-mutex": "^0.5.0",
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
     "exceljs": "^4.4.0",
-    "file-saver": "^2.0.5",
-    "framer-motion": "^12.38.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-router-dom": "^7.5.2",
-    "xlsx": "^0.18.5"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.22.0",
-    "@types/react": "^19.0.10",
-    "@types/react-dom": "^19.0.4",
-    "@vitejs/plugin-react": "^4.3.4",
-    "autoprefixer": "^10.4.21",
-    "eslint": "^9.22.0",
-    "eslint-plugin-react-hooks": "^5.2.0",
-    "eslint-plugin-react-refresh": "^0.4.19",
-    "globals": "^16.0.0",
-    "postcss": "^8.5.3",
-    "tailwindcss": "^4.1.4",
-    "vite": "^6.3.1"
+    "express": "^5.1.0",
+    "googleapis": "^150.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.14.0",
+    "multer": "^1.4.5-lts.2",
+    "stream": "^0.0.3"
   }
 }
